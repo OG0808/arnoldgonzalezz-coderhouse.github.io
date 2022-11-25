@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./Bootstrap-icons/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <button
+          class="fs-5 mb-2 mt-2 boton border border-dark border-3 mx-auto p-2 bg-white text-black"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Desplegar
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto fs-5 p-3">
+            <a
+              class="barra-de-navegacion nav-link text-black pe-5 ps-5"
+              href="./index.html"
+              >Inicio</a
+            >
+            <a
+              class="barra-de-navegacion nav-link text-black pe-5 ps-5"
+              href="./multimedia.html"
+              >Multimedia</a
+            >
+            <a
+              class="barra-de-navegacion nav-link text-black pe-5 ps-5"
+              href="#"
+              >Artistas</a
+            >
+            <a
+              class="barra-de-navegacion nav-link text-black pe-5 ps-5"
+              href="./Contacto.html"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <!-- grilla de los artistas -->
+    <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="mx-auto col-lg-4">
+                <div class="card m-3 h-75 " >
+                  <!-- aqui va una imagen con el nombre del artista, puden hacer click en los botones  y desplegar los logros y una pequena bio -->
+                  <img src="./imagen-de-prueba.jpg" alt="" />
+                  <div class="card-body ">
+                      <div class="minibio-logros">
+                      <div class="d-flex justify-content-around">
+                          <a class="me-3 btn botonn" data-bs-toggle="collapse" href="#alice" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Logros
+                          </a>
+                          <button class="btn botonn" type="button" data-bs-toggle="collapse" data-bs-target="#alice-a" aria-expanded="false" aria-controls="collapseExample">
+                            Mini Bio
+                          </button>
+                      </div>
+                        <div class="collapse" id="alice-a">
+                          <div class="mt-3 card card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem excepturi ut aut laudantium. Non illum recusandae amet. Laudantium doloribus eos aut voluptatibus inventore totam sint quos similique, velit ipsum, porro facere. Rerum optio minima voluptatum delectus! Error ullam dignissimos quis ad unde minima vitae nobis facilis labore? Voluptate, corrupti. Magnam autem quisquam aspernatur placeat animi esse quo, laboriosam perspiciatis voluptatum! Incidunt, obcaecati consequatur. Tenetur possimus dolor, et, excepturi velit non odio ratione omnis tempore voluptate consequatur nemo voluptatibus atque. Sapiente illo officia quos, autem, doloremque, soluta qui voluptatum nisi dolore molestiae modi corrupti iure provident dignissimos hic reprehenderit aliquam.
+                          </div>
+                        </div>
+                        <div class="collapse" id="alice">
+                          <div class="mt-3 card card-body">
+                           <ul>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                           </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mx-auto col-lg-4">
+                <div class="card m-3 h-75 " >
+                  <img src="./imagen-de-prueba.jpg" alt="" />
+                  <div class="card-body ">
+                      <div class="minibio-logros">
+                      <div class="d-flex justify-content-around">
+                          <a class="me-3 btn botonn" data-bs-toggle="collapse" href="#alice" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Logros
+                          </a>
+                          <button class="btn botonn" type="button" data-bs-toggle="collapse" data-bs-target="#alice-a" aria-expanded="false" aria-controls="collapseExample">
+                            Mini Bio
+                          </button>
+                      </div>
+                        <div class="collapse" id="alice-a">
+                          <div class="mt-3 card card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem excepturi ut aut laudantium. Non illum recusandae amet. Laudantium doloribus eos aut voluptatibus inventore totam sint quos similique, velit ipsum, porro facere. Rerum optio minima voluptatum delectus! Error ullam dignissimos quis ad unde minima vitae nobis facilis labore? Voluptate, corrupti. Magnam autem quisquam aspernatur placeat animi esse quo, laboriosam perspiciatis voluptatum! Incidunt, obcaecati consequatur. Tenetur possimus dolor, et, excepturi velit non odio ratione omnis tempore voluptate consequatur nemo voluptatibus atque. Sapiente illo officia quos, autem, doloremque, soluta qui voluptatum nisi dolore molestiae modi corrupti iure provident dignissimos hic reprehenderit aliquam.
+                          </div>
+                        </div>
+                        <div class="collapse" id="alice">
+                          <div class="mt-3 card card-body">
+                           <ul>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                           </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mx-auto col-lg-4">
+                <div class="card m-3 h-75 " >
+                  <img src="./imagen-de-prueba.jpg" alt="" />
+                  <div class="card-body ">
+                      <div class="minibio-logros">
+                      <div class="d-flex justify-content-around">
+                          <a class="me-3 btn botonn" data-bs-toggle="collapse" href="#alice" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Logros
+                          </a>
+                          <button class="btn botonn" type="button" data-bs-toggle="collapse" data-bs-target="#alice-a" aria-expanded="false" aria-controls="collapseExample">
+                            Mini Bio
+                          </button>
+                      </div>
+                        <div class="collapse" id="alice-a">
+                          <div class="mt-3 card card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem excepturi ut aut laudantium. Non illum recusandae amet. Laudantium doloribus eos aut voluptatibus inventore totam sint quos similique, velit ipsum, porro facere. Rerum optio minima voluptatum delectus! Error ullam dignissimos quis ad unde minima vitae nobis facilis labore? Voluptate, corrupti. Magnam autem quisquam aspernatur placeat animi esse quo, laboriosam perspiciatis voluptatum! Incidunt, obcaecati consequatur. Tenetur possimus dolor, et, excepturi velit non odio ratione omnis tempore voluptate consequatur nemo voluptatibus atque. Sapiente illo officia quos, autem, doloremque, soluta qui voluptatum nisi dolore molestiae modi corrupti iure provident dignissimos hic reprehenderit aliquam.
+                          </div>
+                        </div>
+                        <div class="collapse" id="alice">
+                          <div class="mt-3 card card-body">
+                           <ul>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                               <li>Lorem ipsum dolor sit amet.</li>
+                           </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden " >Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- finde la grilla de los artistas -->
+
+
+
+
+    <!-- Aqui empiza el footer -->
+    <footer class="bg-white border border-3 border-dark text-center text-white">
+      <section class="mb-4 socialmedia pt-4">
+        <!-- Facebook -->
+        <div class="icons">
+          <i
+            class="social-media-icons button fs-5 border border-dark border-3 ps-2 pe-2 bg-white text-black bi bi-facebook pe-2"
+            href="#"
+          ></i>
+        </div>
+
+        <!-- Twitter -->
+        <div class="icons">
+          <i
+            class="social-media-icons button fs-5 border border-dark border-3 ps-2 pe-2 bg-white text-black bi bi-twitter pe-2"
+            href="#"
+          ></i>
+        </div>
+
+        <!-- Google -->
+        <div class="icons">
+          <i
+            class="social-media-icons button fs-5 border border-dark border-3 ps-2 pe-2 bg-white text-black bi bi-google pe-2"
+            href="#"
+          ></i>
+        </div>
+        <!-- Instagram -->
+        <div class="icons">
+          <i
+            class="social-media-icons button fs-5 border border-dark border-3 ps-2 pe-2 bg-white text-black bi bi-instagram pe-2"
+            href="#"
+          ></i>
+        </div>
+        <!-- Linkedin -->
+        <div class="icons">
+          <i
+            class="social-media-icons button fs-5 border border-dark border-3 ps-2 pe-2 bg-white text-black bi bi-linkedin pe-2"
+            href="#"
+          ></i>
+        </div>
+        <!-- Github -->
+        <div class="icons">
+          <i
+            class="social-media-icons button fs-5 border border-dark border-3 ps-2 pe-2 bg-white text-black bi bi-github pe-2"
+            href="#"
+          ></i>
+        </div>
+      </section>
+      <!-- Copyright -->
+      <div class="icons"></div>
+      <div class="text-center p-3 text-black">
+        © 2020 Copyright:
+        <a class="text-black" href="#">artic.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

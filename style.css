@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+     font-family:Personalizada;
+     src: url(./Fuentes/lean/Lean.otf);
+}
+
+body{
+    font-family:Personalizada;
+}
+
+.boton{
+    box-shadow: 3px 3px 0px black;
+}
+
+.boton:hover{
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px black;
+    transform: translateY(-5%);
+    transition: 300ms ;
+}
+
+@media(min-width:992px){
+    .boton {display: none;}
+}
+
+
+.navbar{
+    font-family:Personalizada;
+    margin: 20px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px black;
+
+}
+
+.barra-de-navegacion{
+    background-color: white;
+    margin: 0px 40px ;
+    border: 3px solid black; 
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 0px black;
+    transition: 300ms ;
+}
+
+@media (max-width:992px){
+    .barra-de-navegacion{
+        margin-bottom: 15px;
+        display: flex;
+        text-align: center;
+
+    }
+}
+
+.navbar-nav a{
+    transition: 300ms ;
+}
+
+.barra-de-navegacion:hover{
+    border: 3px solid black;
+    box-shadow: 10px 10px 0px black;
+    transform: translateY(-5%);
+    transition: 300ms ;
+}
+
+/* estilos de las tajetas de los artistas del mes*/
+
+.cards{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 0px black; 
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    transition: 300ms;
+    
+}
+
+.card-img-top:hover{
+    transform:scale(1.1);
+    transition: 300ms;
+}
+
+.card-body{
+    text-align: center;
+    font-family:Personalizada;
+    letter-spacing: 1px;
+}
+
+.button{
+    box-shadow: 3px 3px 0px black;
+    text-decoration: none;
+    transition: 300ms ;
+}
+
+.button:hover{
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px black;
+    transform: translateY(-5%);
+    transition: 300ms ;
+}
+
+
+/* aqui empiezan los estilos del footer*/
+
+footer{
+    margin: 20px;   
+    box-shadow: 5px 5px 0px black
+}
+
+.social-media-icons{
+    justify-content: space-around;
+}
+.socialmedia{
+    display:flex;
+    justify-content: center;
+}
+
+.icons{
+    display:flex;
+    margin:9px;
+
+}
+
+@media (max-width:445px){
+   .socialmedia{
+    display:block;
+   }
+   .icons{
+    display: flex;
+    justify-content: center;
+   }
+}
+
+/* AQUI EMPIEZAN LOS ESTILOS DEL ARCHIVO INDEX MULTIMEDIA*/
+#galeria .col-lg-4{
+    padding: 25px;
+    font-family:Personalizada;
+    
+}
+
+.container-card-artista{
+    margin: 10px;
+    box-shadow: 3px 3px 0px black;
+}
+
+.video-gallery{
+    width: 100%;
+}
+
+.galeria-card-container{
+    display:flex;
+    justify-content:space-around;
+}
+
+.galeria-card-container img{
+    width: 100%;
+    height: 350px;
+}
+
+.container-card-artista img{
+    box-shadow: 4px 4px 0px black;
+}
+
+.galeria-card-container h1{
+    color:black;
+    margin-top:15px;
+}
+
+.galeria-card-container p{
+    color:black;
+    margin-top:15px;
+}
+
+
+/*AQUI ENPIEZAN LOS ESTILOS DE */
+
+.card{
+    box-shadow: 5px 5px 0px black;
+}
+
+/*estilos del formulario de contacto*/
+
+.form-control{
+    box-shadow: 5px 5px 0px black;
+}
+
+
+.boton-formulario{
+    box-shadow: 5px 5px 0px black;
+}
+
+.form-select{
+    box-shadow: 5px 5px 0px black;
+}
+
+.formulario-container{
+    font-family: Personalizada;
+}
